@@ -30,7 +30,7 @@ We use different init and goal predicates for our problem by current game state 
 
 #### Attack
 The decision tree below describes the strategy of our offensive agent. Its main goals are to eat the nearest food, eat the capsule, get home safely, and actively die if it cannot get home.
-![Attack DT](https://github.com/Yuqi-D/Classical-Planning-for-Pacman/main/img/M1.png)
+![Attack DT](https://github.com/Yuqi-D/Classical-Planning-for-Pacman/blob/main/img/M1.png)
 
 We use the following well-defined domain to generate problems via the game state.
 | Action | Precondition | Effect |
@@ -45,7 +45,7 @@ We use the following well-defined domain to generate problems via the game state
 
 #### Defend
 The decision tree below describes the strategy of our defensive agent. Its main goals are to protect the capsule, eat the enemies, go to the latest place where food disappeared (the enemy ate) to find the enemy and protect the foods near the boundary.
-![Defend DT](https://github.com/COMP90054-2023s2/a3-99/blob/main/img/M1_2.png)
+![Defend DT](https://github.com/Yuqi-D/Classical-Planning-for-Pacman/blob/main/img/M1_2.png)
 
 We use the following domain to generate problems via the game state.
 | Action | Precondition | Effect |
@@ -54,7 +54,7 @@ We use the following domain to generate problems via the game state.
 | `eat-invader` | Invader and the ghost are in the same position | Ghost eats the invader |
 
 The performance of this method is good, but there is still something to improve.
-![](https://github.com/COMP90054-2023s2/a3-99/blob/main/img/M1_3.png)
+![](https://github.com/Yuqi-D/Classical-Planning-for-Pacman/blob/main/img/M1_3.png)
 
 [Back to top](#table-of-contents)
 
