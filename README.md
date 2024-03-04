@@ -1,5 +1,4 @@
-# Classical-Planning-for-Pacman
-# AI Method 1 - Classical Planning (PDDL)
+# Classical Planning (PDDL)
 
 Planning Domain Deﬁnition Language (PDDL) is currently a widely recognised method in the Artificial Intelligence field. In this project, we use PDDL to define our planning problem and its respective response. We will show our motivation, application, trade-offs, and future improvements of the PDDL approach in this section.
 
