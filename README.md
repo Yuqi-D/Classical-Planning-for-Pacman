@@ -30,7 +30,7 @@ We use different init and goal predicates for our problem by current game state 
 
 #### Attack
 The decision tree below describes the strategy of our offensive agent. Its main goals are to eat the nearest food, eat the capsule, get home safely, and actively die if it cannot get home.
-![Attack DT](https://github.com/COMP90054-2023s2/a3-99/blob/main/img/M1.png)
+![Attack DT](https://github.com/Yuqi-D/Classical-Planning-for-Pacman/main/img/M1.png)
 
 We use the following well-defined domain to generate problems via the game state.
 | Action | Precondition | Effect |
